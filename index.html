@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTC Price Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BTC Price Calculator</h1>
+  </header>
+  <main>
+    <section id="price-section">
+      <h2>Current BTC Price</h2>
+      <p id="price">Loading...</p>
+    </section>
+    <section id="calculator-section">
+      <h2>BTC to USD Calculator</h2>
+      <label for="btc-amount">Amount of BTC:</label>
+      <input type="number" id="btc-amount" placeholder="Enter BTC amount">
+      <button id="convert-btn">Convert</button>
+      <p id="result">Result: $0.00</p>
+    </section>
+  </main>
+  <footer>
+    <p>Powered by CoinGecko API | by Michael York</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
